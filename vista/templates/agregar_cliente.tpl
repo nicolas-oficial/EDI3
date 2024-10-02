@@ -5,7 +5,7 @@
     <title>Agregar Cliente</title>
     <link rel="stylesheet" href="../public/css/styles.css">
 </head>
-<body>
+<body>                  <!-- Cuerpo -->
     <h1>Agregar Cliente</h1>
 
     {if isset($mensaje)}
