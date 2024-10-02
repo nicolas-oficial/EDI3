@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Ajusta el espacio entre los botones */
+    flex-wrap: wrap; /* Asegura que los botones no se desborden y se ajusten a nuevas líneas si es necesario */
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Añade transición suave al cambiar el color */
+}
+
+.btn-agregar {
+    background-color: #007bff;
+}
+
+.btn-agregar:hover {
+    background-color: #0056b3;
+}
+
+.btn-modificar {
+    background-color: #28a745;
+}
+
+.btn-modificar:hover {
+    background-color: #218838;
+}
+
+.btn-eliminar {
+    background-color: #dc3545;
+}
+
+.btn-eliminar:hover {
+    background-color: #c82333;
+}
+
+.btn-lista {
+    background-color: #17a2b8;
+}
+
+.btn-lista:hover {
+    background-color: #138496;
+}
