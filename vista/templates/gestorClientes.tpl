@@ -12,7 +12,7 @@
             
             <form action="../controlador/clienteControlador.php" method="get" style="display: inline;">
                 <input type="hidden" name="action" value="agregar">
-                <button type="submit" class="btn btn-agregar">Agregar Clientes</button>
+                <button type="submit" class="btn btn-agregar">Agregar Cliente</button>
             </form>
 
             <form action="../controlador/clienteControlador.php" method="get" style="display: inline;">
